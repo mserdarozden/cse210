@@ -77,4 +77,8 @@ public class Activity
         }
     }
 
-    publi
+    public void SetDuration(int duration)
+    {
+        _duration = duration;
+    }
+}

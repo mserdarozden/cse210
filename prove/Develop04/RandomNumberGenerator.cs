@@ -37,3 +37,4 @@ public class RandomNumberGenerator
         return _randomNumber;
     }
 }
+
