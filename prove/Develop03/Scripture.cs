@@ -44,6 +44,7 @@ public class Scripture
                 _words[randomNumber].Hide();
                 counter += 1;
             }
+
             int remainingWords = _words.Count - _randomNumbers.Count;
             if (remainingWords == 0)
             {
