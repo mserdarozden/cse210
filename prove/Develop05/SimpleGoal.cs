@@ -28,7 +28,4 @@ public class SimpleGoal:Goal
     {
         _isComplete = isComplete;
     }
-
-
-
 }
