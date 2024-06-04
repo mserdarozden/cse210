@@ -16,7 +16,7 @@ public class OutdoorGatherings: Event
 
     public void DisplayShortDescription()
     {
-        string title = GetEventTitile();
+        string title = GetEventTitle();
         string date = GetDate();
         string shortDescription = $"Event Type: Outdoor Gatherings \nTitle: {title} \nDate: {date}";
         Console.WriteLine(shortDescription);

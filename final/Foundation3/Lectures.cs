@@ -20,7 +20,7 @@ public class Lectures: Event
 
     public void DisplayShortDescription()
     {
-        string title = GetEventTitile();
+        string title = GetEventTitle();
         string date = GetDate();
         string shortDescription = $"Event Type: Lectures \nTitle: {title} \nDate: {date}";
         Console.WriteLine(shortDescription);

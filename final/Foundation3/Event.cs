@@ -21,7 +21,7 @@ public class Event
         Console.WriteLine(standartDetails);
     }
 
-    public string GetEventTitile()
+    public string GetEventTitle()
     {
         return _eventTitle;
     }

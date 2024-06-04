@@ -16,7 +16,7 @@ public class Receptions: Event
 
     public void DisplayShortDescription()
     {
-        string title = GetEventTitile();
+        string title = GetEventTitle();
         string date = GetDate();
         string shortDescription = $"Event Type: Receptions \nTitle: {title} \nDate: {date}";
         Console.WriteLine(shortDescription);
